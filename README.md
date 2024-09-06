@@ -11,7 +11,9 @@ npm i bardiaai --save
 # GPT
 
 [https://hapi.majidapi.ir/bardia/gpt/4?q=Hello](https://hapi.majidapi.ir/bardia/gpt/4?q=Hello)
+
 [https://hapi.majidapi.ir/bardia/gpt/3-5/turbo?q=Hello](https://hapi.majidapi.ir/bardia/3-5/turbo?q=Hello)
+
 [https://hapi.majidapi.ir/bardia/gpt/3?q=Hello](https://hapi.majidapi.ir/bardia/gpt/3?q=Hello)
 
 ```javascript
