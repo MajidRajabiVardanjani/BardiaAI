@@ -1,7 +1,7 @@
 const axios = require("axios");
 const base = "hapi.majidapi.ir/bardia"
 module.exports = {
-    gpt: (model = "GPT-4", prompt = "") => {
+    gpt: ({model = "GPT-4", prompt = ""}) => {
         let v = "4";
         switch (model) {
             case "GPT-4":

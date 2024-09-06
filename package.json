@@ -7,8 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "ai"
+    "ai",
+    "free-gpt",
+    "gpt",
+    "gpt4",
+    "gpt-4",
+    "gpt-3",
+    "gpt-3.5"
   ],
+  "homepage": "https://github.com/MajidRajabiVardanjani/BardiaAI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MajidRajabiVardanjani/BardiaAI.git"
+  },
   "author": "Majid Rajabi Vardanjani",
   "license": "ISC",
   "dependencies": {
