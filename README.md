@@ -17,7 +17,7 @@ npm i bardiaai --save
 [https://hapi.majidapi.ir/bardia/gpt/3?q=Hello](https://hapi.majidapi.ir/bardia/gpt/3?q=Hello)__
 
 ```javascript
-const {gpt} = require("BardiaAI")
+const {gpt} = require("bardiaai")
 
 gpt({
     model: "GPT-4", // GPT-4, GPT-3.5-turbo, GPT-3
