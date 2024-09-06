@@ -1,6 +1,6 @@
 {
   "name": "bardiaai",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bardia AI",
   "main": "index.js",
   "scripts": {
