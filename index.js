@@ -26,5 +26,29 @@ module.exports = {
                 });
         })
 
+    },
+
+    textToImage: ({model = "default", prompt = ""}) => {
+        return new Promise((resolve, reject) => {
+            axios.get(`${base}/tti?model=${model}&p=${prompt}`)
+                .then(r => {
+                    resolve(r.data.result);
+                })
+                .catch(err => {
+                    reject("An error has occurred");
+                });
+        })
+    },
+
+    dalle3: ({prompt = ""}) => {
+        return new Promise((resolve, reject) => {
+            axios.get(`${base}/dalle3?p=${prompt}`)
+                .then(r => {
+                    resolve(r.data.result);
+                })
+                .catch(err => {
+                    reject("An error has occurred");
+                });
+        })
     }
 }

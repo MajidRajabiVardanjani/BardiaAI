@@ -13,7 +13,13 @@
     "gpt4",
     "gpt-4",
     "gpt-3",
-    "gpt-3.5"
+    "gpt-3.5",
+    "stablediffusion",
+    "dalle3",
+    "dalle-3",
+    "dalle",
+    "pixart",
+    "prodia"
   ],
   "homepage": "https://github.com/MajidRajabiVardanjani/BardiaAI",
   "repository": {
